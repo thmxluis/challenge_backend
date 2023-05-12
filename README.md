@@ -27,13 +27,11 @@ Para completar con el challenge backend
 git clone <https://github.com/thmxluis/challenge_backend.git>
 
 2. Accede al directorio del proyecto:
-```markdown
+
 > docker-compose up -d --build
-```
 
 3. Accede a la documentación de la API:
 
-```
 - <http://localhost:8000/docs> (Swagger)
 - <http://localhost:8000/redoc> (Redoc)
 
