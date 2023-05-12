@@ -25,7 +25,7 @@ class PackageBase(BaseModel):
 
 class PackageCreate(PackageBase):
 
-    deliverables: List[DeliverableCreate]
+    deliverables: Optional[List[DeliverableCreate]] = []
 
     class Config:
         orm_mode = True
